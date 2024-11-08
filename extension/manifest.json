@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Skill Trade",
+  "version": "1.0",
+  "description": "Suggest SkillSwap users based on viewed skills.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://www.linkedin.com/*", "*://*.job/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/*", "*://*.job/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

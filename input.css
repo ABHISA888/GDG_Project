@@ -1,0 +1,77 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f8d7da;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    background-color: #e98989;  
+    padding: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.logo {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}  
+
+nav a {  
+    color: white;  
+    text-decoration: none;  
+}  
+
+.container {  
+    display: flex;  
+    justify-content: space-around;  
+    padding: 20px;  
+}  
+
+.course {  
+    background-color: #ffe6e6;  
+    border: 1px solid #de6d6d;  
+    border-radius: 5px;  
+    padding: 15px;  
+    width: 45%;  
+}  
+
+.details, .instructor {  
+    margin-bottom: 15px;  
+}  
+
+.details input, .details textarea, .instructor textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin-top: 5px;  
+    border: 1px solid #de6d6d;  
+    border-radius: 3px;  
+}  
+
+.link {  
+    color: blue;  
+    cursor: pointer;  
+}  
+
+.submit-button {  
+    background-color: #ff4d4d;  
+    color: white;  
+    border: none;  
+    padding: 15px 25px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    margin: 20px;  
+}  
+
+footer {  
+    background-color: #e98989;  
+    text-align: center;  
+    padding: 10px;  
+}

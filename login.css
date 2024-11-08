@@ -1,0 +1,155 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  width: 360px;
+  background-color: #f2c7c3;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.navbar {
+  width: 100%;
+  background-color: #f2c7c3;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.logo span {
+  color: #000;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+/* Logo and header */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 15px;
+  
+}
+
+label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  font-size: 1rem;
+}
+
+/* Remember Password and Forgot Password */
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.form-footer a {
+  color: red;
+  text-decoration: none;
+}
+
+.form-footer input[type="checkbox"] {
+  accent-color: #ffb84d;
+}
+
+/* Login Button */
+.login-button {
+  background-color: #4a3b36;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+
+/* Footer styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 180px;
+  /* margin-bottom: 40px; */
+  width: 100%;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+

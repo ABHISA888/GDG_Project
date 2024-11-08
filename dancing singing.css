@@ -1,0 +1,73 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f2f2f2;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    background-color: #ffcccb;  
+    padding: 10px 20px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+}  
+
+.logo {  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    gap: 15px;  
+}  
+
+nav a {  
+    text-decoration: none;  
+    color: black;  
+}  
+
+.active {  
+    font-weight: bold;  
+}  
+
+.course-container {  
+    display: flex;  
+    justify-content: space-around;  
+    margin: 20px;  
+}  
+
+.course-details {  
+    background-color: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    width: 300px;  
+}  
+
+.details, .instructor-details {  
+    margin-bottom: 20px;  
+}  
+
+.mentorship {  
+    color: blue;  
+}  
+
+button {  
+    display: block;  
+    margin: 20px auto;  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    color: white;  
+    background-color: red;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+}
